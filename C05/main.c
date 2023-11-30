@@ -9,7 +9,7 @@
 #include "ex04/ft_fibonacci.c"
 //#include "ex05/ft_sqrt.c"
 //#include "ex06/ft_is_prime.c"
-#include "ex07/ft_find_next_prime.c"
+//#include "ex07/ft_find_next_prime.c"
 
 int ft_atoi(const char *str)
 {
@@ -55,10 +55,10 @@ int main(int argc, char **argv)
     //printf("%d\n",ft_iterative_power(a,b));
     //printf("%d\n",ft_recursive_power(a,b));
    
-    //printf("%d\n",ft_fibonacci(a));
+    printf("%d\n",ft_fibonacci(a));
     //printf("%d\n", ft_sqrt(a));
     //printf("%d\n", ft_is_prime(a));
-    printf("%d\n", ft_find_next_prime(a));
+    //printf("%d\n", ft_find_next_prime(a));
    
    
 	return 0;

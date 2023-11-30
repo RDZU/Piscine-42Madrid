@@ -6,12 +6,13 @@
 /*   By: razamora <razamora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 18:36:10 by razamora          #+#    #+#             */
-/*   Updated: 2023/11/28 23:57:30 by razamora         ###   ########.fr       */
+/*   Updated: 2023/11/30 00:42:29 by razamora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <unistd.h>
+#include "ft_stock_str.h"
 
 void	ft_putchar(char c)
 {

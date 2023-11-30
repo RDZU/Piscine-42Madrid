@@ -6,7 +6,7 @@
 /*   By: razamora <razamora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/21 19:51:38 by razamora          #+#    #+#             */
-/*   Updated: 2023/11/22 02:40:21 by razamora         ###   ########.fr       */
+/*   Updated: 2023/11/22 05:52:15 by razamora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	ft_is_prime(int nb)
 
 int	ft_find_next_prime(int nb)
 {
-	while (!ft_is_prime(nb) && nb <= 2147483647)
+	while (!ft_is_prime(nb))
 		nb++;
 	return (nb);
 }
